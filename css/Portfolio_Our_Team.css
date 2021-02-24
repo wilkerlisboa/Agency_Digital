@@ -12,7 +12,7 @@
 .First_Title{
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    font-size: xx-large;
+    font-size: 52px;
     letter-spacing: 2px;
 }
 
@@ -83,7 +83,7 @@
 .Second_Title{
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    font-size: xx-large;
+    font-size: 52px;
     letter-spacing: 2px;
 }
 
@@ -190,7 +190,7 @@
 .Proficient{
     position: absolute;
     margin: 224px 0px 0px 19px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-style: normal;
     letter-spacing: 2px;

@@ -63,10 +63,10 @@ input{
 }
 
 /*Block Inside Image*/
-.block{
+.block {
     position: absolute;
     background: blueviolet;
-    width: 164px;
+    width: 166px;
     height: 61px;
     margin: 0px 0px 0px 464px;
     border-bottom-left-radius: 5px;
