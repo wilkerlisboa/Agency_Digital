@@ -1,0 +1,120 @@
+.Second_Section{
+    position: absolute;
+    margin: 1271px 0px 0px 0px;
+}
+
+/*First Title*/
+.First_title{
+    position: absolute;
+    font-size: 52px;
+    width: 331px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 38px 0px 0px 71px;
+}
+
+/*Box of Online Marketing*/
+#Online_Marketing{
+    margin: 212px 0px 0px 17px;
+    position: absolute
+}
+
+/*Box Of Web Developer*/
+#Web_Developer{
+    margin: 212px 0px 0px 339px;
+    position: absolute;
+}
+
+/*Box Of Website design*/
+#Website_Design{
+    margin: 436px 0px 0px 17px;
+    position: absolute;
+}
+
+/*Box of SEO Optimization*/
+#SEO_Optimization{
+    margin: 436px 0px 0px 339px;
+    position: absolute;
+}
+
+/*Icons Of Side of the Text*/
+.icon {
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: url(../icons/minus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1px 0px 0px 15px;
+    opacity: 0.5;
+}
+
+/*Titles*/
+.Third_title{
+    position: absolute;
+    width: 139px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin: -10px 0px 0px 74px;
+}
+
+/*Subtitles*/
+.Third_subtitle{
+    width: 263px;
+    height: 49px;
+    position: absolute;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 12px 0px 0px 15px;
+    letter-spacing: 1px;
+}
+
+/*Square Above Of The Titles*/
+.rec{
+    margin: -52px 0px 0px 28px;
+    width: 17px;
+    height: 27px;
+    position: absolute;
+    border-style: groove;
+}
+/*Block Below of Image man*/
+#Block {
+    width: 630px;
+    height: 634px;
+    position: absolute;
+    background: blueviolet;
+    margin: -9px 0px 0px 719px;
+    border-bottom-left-radius: 13px;
+}
+
+/*Image man*/
+#Third_Img{
+    width: 453px;
+    height: 460px;
+    position: absolute;
+    margin: 1348px 0px 0px 638px;
+    background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 28px 31px 95px -18px #000000d1;
+    border-radius: 6px;
+}
+
+/*Image Phone*/
+#Image-Phone{
+    width: 197px;
+    height: 339px;
+    position: absolute;
+    margin: 1520px 0px 0px 995px;
+    background: url(https://raw.githubusercontent.com/wilkerlisboa/Our_Services/main/img/Iphone12.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
