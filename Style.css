@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 623px;
+    background: blueviolet;
+}
+nav{
+    width: 100%;
+    height: 52px;
+}
+main{
+    color: white;
+    margin: 17px 0px 0px 110px;
+    position: absolute;
+    font-family: 'Roboto';
+}
+ul{
+    text-align: right;
+    margin: 0px 110px 0px 0px
+}
+li{
+    display: inline-block;
+    margin: 17px 17px 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.facebook{
+    width: 30px;
+    height: 40px;
+    background: url(./icons/facebook.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.instagram{
+    width: 37px;
+    height: 40px;
+    background: url(./icons/instagram.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.twitter{
+    width: 37px;
+    height: 40px;
+    background: url(./icons/twitter.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    width: 48%;
+    height: 479px;
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1613672710119-573123221c48?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    margin: 17px 0px 0px 109px;
+}
+#First_title{
+    color: white;
+    font-family: 'Roboto';
+    position: absolute;
+    margin: 90px 0px 0px 799px;
+}
+.Second_title{
+    position: absolute;
+    margin: 187px 0px 0px 799px;
+    width: 32.3%;
+    font-family: 'Roboto';
+    color: white;
+}
+.button{
+    background: white;
+    width: 76px;
+    height: 29px;
+    outline: none;
+    border-style: none;
+    margin: 326px 0px 0px 942px;
+    position: absolute;
+    border-radius: 5px;
+}
+/*About Agency*/
+#About_agency{
+    width: 100%;
+    height: 623px;
+}
+.background{
+    width: 56%;
+    height: 623px;
+    background: black;
+}
+#img_About_agency{
+    width: 43%;
+    height: 479px;
+    background: url(https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    margin: -544px 0px 0px 643px;
+    box-shadow: 10px 10px 15px -2px #58585824;
+}
+#Title_about_agency{
+    font-family: 'Roboto';
+    color: white;
+    position: absolute;
+    font-size: 32px;
+    margin: -366px 0px 0px 108px;
+}
+#text_about_agency{
+    color: white;
+    position: absolute;
+    margin: -264px 0px 0px 108px;
+    text-align: left;
+    font-family: 'Roboto';
+}
+/*Our Services*/
+#Our_services{
+    width: 100%;
+    height: 623px;
+}
+.Title_Our_services{
+    font-family: 'Roboto';
+    color: black;
+    position: absolute;
+    font-size: 32px;
+    margin: 102px 0px 0px 108px;
+}
+#img_Our_services{
+    width: 43%;
+    position: absolute;
+    height: 479px;
+    margin: 91px 0px 0px 643px;
+    background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+}
+#img_smartfone_Our_services{
+    width: 197px;
+    height: 339px;
+    position: absolute;
+    margin: 284px 0px 0px 1027px;
+    background: url(https://raw.githubusercontent.com/wilkerlisboa/Our_Services/main/img/Iphone12.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.online_marketing{
+    width: 242px;
+    height: 146px;
+    position: absolute;
+    margin: 220px 0px 0px 108px;
+    font-family: 'Roboto';
+}
+.web_developer{
+    width: 242px;
+    height: 146px;
+    position: absolute;
+    margin: 220px 0px 0px 386px;
+    font-family: 'Roboto';
+}
+.web_design{
+    width: 242px;
+    height: 146px;
+    position: absolute;
+    margin: 403px 0px 0px 108px;
+    font-family: 'Roboto';
+}
+.seo_optimization{
+    width: 242px;
+    height: 146px;
+    position: absolute;
+    margin: 403px 0px 0px 386px;
+    font-family: 'Roboto';
+}
+.title_below_name{
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.background_serveces{
+    width: 44%;
+    height: 623px;
+    background: blueviolet;
+    margin-left: 56%;
+    border-bottom-left-radius: 6px
+}
+/*Portfolio*/
+.portfolio{
+    width: 100%;
+    height: 623px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+#img{
+    margin: 10px 0px 0px 54px;
+}
+.portfolio_hand{
+    width: 19%;
+    height: 53%;
+    background: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.portfolio_computer{
+    width: 19%;
+    height: 53%;
+    background: url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.portfolio_block{
+    width: 19%;
+    height: 53%;
+    background: url(https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.portfolio_computer_prototype{
+    width: 19%;
+    height: 53%;
+    background: url(https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-position: center;
+    background-size: cover;
+}

@@ -4,198 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Css-->
-    <link rel="stylesheet" href="./Css/Style.css">
-    <link rel="stylesheet" href="./Css/About_Agency.css">
-    <link rel="stylesheet" href="./Css/Our_Services.css">
-    <link rel="stylesheet" href="./Css/Portfolio_Our_Team.css">
-    <link rel="stylesheet" href="./Css/Contact.css">
-    <!--Fonts-->
+    <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Agency Digital</title>
 </head>
 <body>
-    <header id="Container">
-        <!--Logo-->
-        <p class="Your_Logo">Your Logo</p>
-        <!--First Title-->
-        <h1 class="title">Digital Agency</h1>
-        <!--Subtitle-->
-        <p class="subtitle">We pride ourselves in great work ethic.<br>
-        integrity and providing end - results.</p>
-        <!--Button-->
-        <input type="submit" value="Get Started">
-        <!--Image-->
-        <div class="Img">
-            <!--Box Below of Icons social-->
-            <div class="block"></div>
-            <!--Icon Facebook-->
-            <a href="https://pt-br.facebook.com/login.php">
-                <div id="facebook"></div>
-            </a>
-            <!--Icon Instagram-->
-            <a href="https://www.instagram.com/">
-                <div id="instagram"></div>
-            </a>
-            <!--Icon Twitter-->
-            <a href="https://twitter.com/login/">
-                <div id="twitter"></div>
-            </a>
-        </div>
+    <!--Header-->
+    <header>
+        <nav>
+            <!--Logo-->
+            <main class="logo">Your Logo</main>
+            <ul>
+                <a href="https://m.facebook.com/login/?locale=pt_BR"><li class="facebook"></li></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=pt-br"><li class="instagram"></li></a>
+                <a href="https://twitter.com/login?lang=pt"><li class="twitter"></li></a>
+            </ul>
+        </nav>
+        <div class="img"></div>
+        <h1 id="First_title">Agency Digital</h1>
+        <p class="Second_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> aspernatur mollitia consectetur quia nam rem totam eveniet beatae. Dolor, corporis. Earum quo ipsa quidem dicta est vitae nostrum doloremque quasi.</p>
+        <input type="submit" value="About" class="button">
     </header>
-
-    <section class="First_Section">
-        <!--Box Of The Text and Image-->
-        <div class="Second_class">
-            <!--First Title-->
-            <h1 id="About_agency">About Agency</h1>
-            <!--Box Text-->
-            <h3 id="Text">
-                <p>Agency (law), a person acting on behalf of another person. Agency (LDS Church), "the privilege of choice... 
-                    introduced by God". Agency (moral), capacity for making moral judgments. Agency (philosophy), the capacity of an 
-                    autonomous agent to act, relating to action theory in philosophy.<br>Agency (sociology) In social science, agency is 
-                    the capacity of individuals to act independently and to make their own free choices. By contrast, structure is those factors of 
-                    influence (such as social class, religion, gender, ethnicity, ability, customs, etc.) that determine or limit an agent and their decisions.<br>
-                    Government agency, a department of a local or national government responsible for the oversight and administration of a specific function. International 
-                    agency, an inter-governmental body. Marketing agency, a service business dedicated to creating, planning and handling marketing for its clients.</p>
-            </h3>
-            <!--Image-->
-            <div id="Second_img"></div>
-        </div>
+    <!--About Agency-->
+    <section id="About_agency">
+        <article class="background"></article>
+        <article id="img_About_agency"></article>
+        <h1 id="Title_about_agency">About Agency</h1>
+        <p id="text_about_agency">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Odit minus alias magni! Perspiciatis sunt ratione harum aperiam!<br> Excepturi aliquam doloribus ducimus reiciendis fugiat! Illum dolor,<br> perferendis possimus id atque culpa. Lorem ipsum, dolor sit amet<br>consectetur adipisicing elit. Laborum perferendis aut quod quos vel <br> officiis molestiae natus repudiandae minus! Vero ea eius totam<br>doloremque, non expedita nesciunt nihil et quae.</p>
     </section>
-    
-    <section class="Second_Section">
-        <!--First Title -->
-        <h1 class="First_title">Our Services</h1>
-        <!--Box of Online Marketing-->
-        <div id="Online_Marketing">
-            <div class="icon"></div>
-            <h1 class="Third_title">Online marketing</h1>
-            <p class="Third_subtitle">Online marketing is a set of tools and methodologies used for promoting products and services through the internet.</p>
-            <article class="rec"></article> 
+    <!--Our Services-->
+    <section id="Our_services">
+        <h1 class="Title_Our_services">Our Services</h1>
+        <div class="texts_Our_services">
+            <!--online marketing-->
+            <div class="online_marketing">
+                <h1 id="name_online_marketing">Online Marketing</h1>
+                <p class="title_below_name">Online marketing is a set of tools and methodologies used for promoting products and services through the internet.</p>
+            </div>
+            <!--Web developer-->
+            <div class="web_developer">
+                <h1 id="name_web_developer">Web developer</h1>
+                <p class="title_below_name">A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web.</p>
+            </div>
+            <!--Web Design-->
+            <div class="web_design">
+                <h1 class="name_web_design">Web design</h1>
+                <p class="title_below_name">Create engaging, interactive HTML5-based designs and motion graphics that can run on any device.</p>
+            </div>
+            <div class="seo_optimization">
+                <h1 class="name_seo_optimization">SEO optimization</h1>
+                <p class="title_below_name">SEO Optimizers We are a full service digital marketing agency, specializing in search engine optimization.</p>
+            </div>
         </div>
-        <!--Box of  Web Developer-->
-        <div id="Web_Developer">
-            <div class="icon"></div>
-            <h1 class="Third_title">Web developer</h1>
-            <p class="Third_subtitle">A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web.</p>
-            <article class="rec"></article> 
-        </div>
-        <!--Box of Website Design -->
-        <div id="Website_Design">
-            <div class="icon"></div>
-            <h1 class="Third_title">Website design</h1>
-            <p class="Third_subtitle">Create engaging, interactive HTML5-based designs and motion graphics that can run on any device.</p>
-            <article class="rec"></article> 
-        </div>
-        <!--Box of SEO Optimization-->
-        <div id="SEO_Optimization">
-            <div class="icon"></div>
-            <h1 class="Third_title">SEO optimization</h1>
-            <p class="Third_subtitle">SEO Optimizers We are a full service digital marketing agency, specializing in search engine optimization.</p>
-            <article class="rec"></article> 
-        </div>
-        <!--box Below Image man-->
-        <div id="Block"></div>
+        <div id="img_Our_services"></div>
+        <div id="img_smartfone_Our_services"></div>
+        <article class="background_serveces"></article>
     </section>
-    <!--Image - man-->
-    <div id="Third_Img"></div>
-    <!-- image - Phone-->
-    <div id="Image-Phone"></div>
-
-
     <!--Portfolio-->
-    <section id="Third_Section">
-        <!--First title Inside Portfolio-->
-        <h1 class="First_Title">Portfolio</h1>
-        <article id="img-01"></article>
-        <article id="img-02"></article>
-        <article id="img-03"></article>
-        <article id="img-04"></article>
+    <section class="portfolio">
+        <article id="img" class="portfolio_hand"></article>
+        <article id="img" class="portfolio_computer"></article>
+        <article id="img" class="portfolio_block"></article>
+        <article id="img" class="portfolio_computer_prototype"></article>
     </section>
-
-    <!--Our Team-->
-    <section class="Fourth_Section">
-        <!--First Title of Our Team-->
-        <h1 class="Second_Title">Our Team</h1>
-        <!--First Box Inside Our Team-->
-        <article id="First_box">
-            <!--box of text and icons-->
-            <div class="text_first_name">
-                <div class="icon01"></div>
-                <div class="icon02"></div>
-                <h1 class="Name">JANE OWEN</h1>
-                <P class="Proficient">ADMINSTRATOR</P>
-            </div>
-            <!--Image inside First Box-->
-            <div class ="First_img"></div>
-        </article>
-
-        <!--Second box inside Our Team-->
-        <article id="Second_box">
-            <!--Box of text and icons-->
-            <div class="text_Second_name">
-                <div class="icon01"></div>
-                <div class="icon02"></div>
-                <h1 class="Name">JOHN WALKER</h1>
-                <p class="Proficient">MANAGER</p>
-            </div>
-            <!--image inside Second box-->
-            <div class="Second_img"></div>
-        </article>
-
-        <!--Third box inside Our team-->
-        <article id="Third_box">
-            <!--box of text and icons-->
-            <div class="text_Third_name">
-                <div class="icon01"></div>
-                <div class="icon02"></div>
-                <h1 class="Name">LISA PARKER</h1>
-                <p class="Proficient">DESIGNER</p>
-            </div>
-            <!--image inside Third Box-->
-            <div class="Third_img"></div>
-        </article>
-
-        <!--Fourth box inside Our team-->
-        <article id="Fourth_box">
-            <!--box of text and icons-->
-            <div class="text_Fourth_name">
-                <div class="icon01"></div>
-                <div class="icon02"></div>
-                <h1 class="Name">DAN COOPER</h1>
-                <p class="Proficient">DEVELOPER</p>
-            </div>
-            <!--image inside Fourth box-->
-            <div class="Fourth_img"></div>
-        </article>
-    </section>
-
-    <section id="ultima">
-        <form action="">
-            <h1 class="Contact">Contact</h1>
-            <input type="email" name="" id="Email" placeholder="Email">
-            <div class="line"></div>
-            <input type="name" name="" id="Name" placeholder="Name">
-            <div class="line-02"></div>
-            <input type="text" name="Subject" id="text" placeholder="Subject">
-            <div class="line-03"></div>
-            <input type="submit" value="Contact"id="button">
-        </form>
-    </section>
-    <div class="maps"></div>
-
-    <footer id="Roda_Pe">
-        <h1 id="direitos"> Copyright Wilker lisboa ©</h1>
-        <a href="">
-            <div id="icon-01"></div>
-        </a>
-        <a href="">
-            <div id="icon-02"></div>
-        </a>
-    </footer>
 </body>
 </html>
