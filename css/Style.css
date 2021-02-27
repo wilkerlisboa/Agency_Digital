@@ -10,6 +10,7 @@
     height: 625px;
     position: absolute;
     background: blueviolet;
+    transition: ease-in 1s 500ms;
 }
 
 /*First Title Inside Header*/
