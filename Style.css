@@ -1,0 +1,682 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*Header*/
+#Container{
+    width: 100%;
+    height: 625px;
+    position: absolute;
+    background: blueviolet;
+    transition: ease-in 1s 500ms;
+}
+
+/*First Title Inside Header*/
+.title{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin: 262px 0px 0px 187px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 52px;
+    width: 374px;
+}
+
+/*SubTitle Below First Title Inside Header*/
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin: 344px 0px 0px 187px;
+    color: white;
+    font-size: 19px;
+}
+
+/*Button Below SubTitle Inside Header*/
+input{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin: 430px 0px 0px 288px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 14px 18px -8px #ffffffa8;
+}
+
+/*Image Inside Header*/
+.Img {
+    width: 630px;
+    height: 625px;
+    background: url(https://images.unsplash.com/photo-1613672710119-573123221c48?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    margin: 0px 0px 0px 719px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+/*Block Inside Image*/
+.block {
+    position: absolute;
+    background: rgb(138 43 226);
+    width: 166px;
+    height: 61px;
+    margin: 0px 0px 0px 454px;
+    border-bottom-left-radius: 5px;
+}
+
+/*Icon Facebook Below of the Block Inside Image*/
+#facebook{
+    width: 34px;
+    height: 34px;
+    margin: 10px 0px 0px 467px;
+    position: absolute;
+    background: url(../icons/facebook.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Icon Instagram Below of the Block Inside Image*/
+#instagram{
+    width: 34px;
+    height: 34px;
+    margin: 10px 0px 0px 510px;
+    position: absolute;
+    background: url(../icons/instagram.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Icon Twitter Below of the Block Inside Image*/
+#twitter{
+    width: 34px;
+    height: 34px;
+    margin: 10px 0px 0px 565px;
+    position: absolute;
+    background: url(../icons/twitter.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255 255 255);
+}
+
+/*Logo Inside Header*/
+.Your_Logo{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin: 12px 0px 0px 25px;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+.First_Section{
+    position: absolute;
+    margin: 655px 0px 0px 0px;
+}
+/*Box Of The Text and Image*/
+.Second_class{
+    width: 732px;
+    height: 637px;
+    background: black;
+    position: absolute;
+    margin: -30px -10px -10px -13px;
+}
+
+/*First Title*/
+#About_agency {
+    position: absolute;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 0px 0px 112px;
+    font-size: 52px;
+    width: 406px;
+}
+
+/*Box Text*/
+#Text {
+    position: absolute;
+    color: white;
+    width: 397px;
+    margin: 188px 0px 0px 108px;
+    letter-spacing: 1px;
+    font-size: unset;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+/*Box Image*/
+#Second_img {
+    width: 535px;
+    height: 527px;
+    border-radius: 8px;
+    box-shadow: 15px 19px 26px -21px #000000b0;
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px 0px 0px 638px;
+}
+
+.Second_Section{
+    position: absolute;
+    margin: 1271px 0px 0px 0px;
+}
+
+/*First Title*/
+.First_title{
+    position: absolute;
+    font-size: 52px;
+    width: 331px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 38px 0px 0px 71px;
+}
+
+/*Box of Online Marketing*/
+#Online_Marketing{
+    margin: 212px 0px 0px 17px;
+    position: absolute
+}
+
+/*Box Of Web Developer*/
+#Web_Developer{
+    margin: 212px 0px 0px 339px;
+    position: absolute;
+}
+
+/*Box Of Website design*/
+#Website_Design{
+    margin: 436px 0px 0px 17px;
+    position: absolute;
+}
+
+/*Box of SEO Optimization*/
+#SEO_Optimization{
+    margin: 436px 0px 0px 339px;
+    position: absolute;
+}
+
+/*Icons Of Side of the Text*/
+.icon {
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: url(../icons/minus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1px 0px 0px 15px;
+    opacity: 0.5;
+}
+
+/*Titles*/
+.Third_title{
+    position: absolute;
+    width: 139px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin: -10px 0px 0px 74px;
+}
+
+/*Subtitles*/
+.Third_subtitle{
+    width: 263px;
+    height: 49px;
+    position: absolute;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 12px 0px 0px 15px;
+    letter-spacing: 1px;
+}
+
+/*Square Above Of The Titles*/
+.rec{
+    margin: -52px 0px 0px 28px;
+    width: 17px;
+    height: 27px;
+    position: absolute;
+    border-style: groove;
+}
+/*Block Below of Image man*/
+#Block {
+    width: 630px;
+    height: 634px;
+    position: absolute;
+    background: blueviolet;
+    margin: -9px 0px 0px 719px;
+    border-bottom-left-radius: 13px;
+}
+
+/*Image man*/
+#Third_Img{
+    width: 453px;
+    height: 460px;
+    position: absolute;
+    margin: 1348px 0px 0px 638px;
+    background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 28px 31px 95px -18px #000000d1;
+    border-radius: 6px;
+}
+
+/*Image Phone*/
+#Image-Phone{
+    width: 197px;
+    height: 339px;
+    position: absolute;
+    margin: 1520px 0px 0px 995px;
+    background: url(https://raw.githubusercontent.com/wilkerlisboa/Our_Services/main/img/Iphone12.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Portfolio*/
+#Third_Section{
+    width: 100%;
+    height: 395px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin: 1970px 0px 0px 0px;
+}
+
+/*First title inside Portfolio*/
+.First_Title{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+/*Image's inside Portfolio*/
+#img-01{
+    width: 208px;
+    height: 227px;
+    margin: 46px 0px 0px 98px;
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+#img-02{
+    width: 208px;
+    height: 227px;
+    position: absolute;
+    margin: 46px 0px 0px 418px;
+    background: url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+#img-03{
+    width: 208px;
+    height: 227px;
+    position: absolute;
+    margin: 46px 0px 0px 724px;
+    background: url(https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+#img-04{
+    width: 208px;
+    height: 227px;
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 46px 0px 0px 1020px;
+    border-radius: 17px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+/*Our Team*/
+.Fourth_Section{
+    width: 100%;
+    height: 397px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin: 2453px 0px 0px 0px;
+}
+
+/*Second Title inside Our Team*/
+.Second_Title{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+/*First box inside Our Team */
+#First_box{
+    width: 208px;
+    height: 257px;
+    position: absolute;
+    background: blueviolet;
+    margin: 46px 0px 0px 98px;
+    border-radius: 22px 20px 0px 0px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+/*Image inside First box*/
+.First_img{
+    width: 208px;
+    height: 192px;
+    background: url(https://images.unsplash.com/photo-1612831455740-a2f6212eeeb2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px 17px 0px 0px;
+}
+
+/*Second box inside Our Team*/
+#Second_box{
+    width: 208px;
+    height: 257px;
+    position: absolute;
+    background: blueviolet;
+    margin: 46px 0px 0px 418px;
+    border-radius: 22px 20px 0px 0px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+/*Image Inside Second Box*/
+.Second_img{
+    width: 208px;
+    height: 192px;
+    background: url(https://images.unsplash.com/photo-1611593006970-1b8cd8a27873?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px 17px 0px 0px;
+}
+
+/*Third Box Inside Our Team */
+#Third_box{
+    width: 208px;
+    height: 257px;
+    position: absolute;
+    background: blueviolet;
+    margin: 46px 0px 0px 724px;
+    border-radius: 22px 20px 0px 0px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+/*Image inside Third Box*/
+.Third_img{
+    width: 208px;
+    height: 192px;
+    background: url(https://images.unsplash.com/photo-1612476929092-26a78fd1ea89?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px 17px 0px 0px;
+}
+
+/*Fourth box Inside Our Team*/
+#Fourth_box{
+    width: 208px;
+    height: 257px;
+    position: absolute;
+    background: blueviolet;
+    margin: 46px 0px 0px 1020px;
+    border-radius: 22px 20px 0px 0px;
+    box-shadow: 0px 38px 41px -29px #4c4a4a99;
+}
+
+/*Image Inside Our Team*/
+.Fourth_img{
+    width: 208px;
+    height: 192px;
+    background: url(https://images.unsplash.com/photo-1610662361478-d2def3ffa83b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 17px 17px 0px 0px;
+}
+
+/*Name's General Inside box's */
+.Name{
+    position: absolute;
+    margin: 205px 0px 0px 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-style: normal;
+    color: white;
+}
+
+/*Proficient General Inside box's */
+.Proficient{
+    position: absolute;
+    margin: 224px 0px 0px 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*Icons inside box's*/
+.icon01{
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    background: url(../icons/twitter.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 212px 0px 0px 141px;
+}
+
+.icon02{
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    background: url(../icons/instagram.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 212px 0px 0px 175px;
+}
+
+#ultima {
+    width: 100%;
+    height: 598px;
+    position: absolute;
+    background: blueviolet;
+    margin: 2923px 0px 0px 0px;
+}
+
+.Contact{
+    margin: 100px 0px 0px 297px;
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+}
+
+#Email{
+    width: 279px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 211px 0px 0px 256px;
+    background: blueviolet;
+    outline: none;
+    color: white;
+    box-shadow: none;
+    font-size: medium;
+}
+
+#Email::placeholder{
+    color: white;
+}
+
+.line {
+    width: 290px;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    margin: 253px 0px 0px 258px;
+    position: absolute;
+}
+
+#Name {
+    width: 279px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 297px 0px 0px 256px;
+    background: blueviolet;
+    position: absolute;
+    outline: none;
+    color: white;
+    box-shadow: none;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Name::placeholder{
+    color: white;
+}
+
+.line-02 {
+    width: 290px;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    margin: 339px 0px 0px 258px;
+    position: absolute;
+}
+
+#text {
+    width: 279px;
+    height: 46px;
+    border-radius: 8px;
+    border-style: none;
+    border-color: white;
+    margin: 365px 0px 0px 256px;
+    background: blueviolet;
+    position: absolute;
+    outline: none;
+    color: white;
+    box-shadow: none;
+    font-size: medium;
+}
+
+#text::placeholder{
+    color: white;
+}
+
+.line-03 {
+    width: 290px;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    margin: 423px 0px 0px 258px;
+    position: absolute;
+}
+
+#button {
+    width: 72px;
+    height: 30px;
+    margin: 471px 0px 0px 359px;
+    background: white;
+    border-style: none;
+    box-shadow: 0px 11px 9px -7px #ffffffb0;
+    position: absolute;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.maps {
+    width: 482px;
+    height: 390px;
+    background: url(https://raw.githubusercontent.com/wilkerlisboa/Contact-form/master/Img/image1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 3044px 0px 0px 674px;
+    box-shadow: 2px 9px 60px rgb(0 0 0 / 61%);
+}
+
+
+#Roda_Pe {
+    font-size: 11px;
+    width: 100%;
+    height: 88px;
+    position: absolute;
+    align-items: center;
+    margin: 3521px 0px 0px 0px;
+    text-align: center;
+    padding: 1px 0px 13px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#direitos{
+    margin: 18px 0px 0px 0px;
+}
+
+#icon-01 {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    background: url(../icons/inst-01.svg);
+    margin: 17px 0px 0px 626px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#icon-02{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    background: url(../icons/github.svg);
+    margin: 17px 0px 0px 710px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
