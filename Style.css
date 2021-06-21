@@ -190,15 +190,21 @@ a{
 .portfolio{
     width: 100%;
     height: 623px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     align-content: center;
 }
+.title_portfolio{
+    font-family: 'Roboto';
+    color: black;
+    position: absolute;
+    font-size: 32px;
+    margin: -342px 0px 0px -1008px;
+}
 #img{
-    margin: 10px 0px 0px 54px;
+    margin: 209px 0px 0px 54px;
 }
 .portfolio_hand{
     width: 19%;
