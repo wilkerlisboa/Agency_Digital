@@ -244,6 +244,13 @@ a{
     flex-wrap: nowrap;
     align-content: center; 
 }
+.title_name_our_team{
+    font-family: 'Roboto';
+    color: black;
+    position: absolute;
+    font-size: 32px;
+    margin: -342px 0px 0px -1008px;
+}
 #img_article_our_team{
     margin: 209px 0px 0px 54px;
 }
@@ -300,4 +307,66 @@ a{
     background: url(https://images.unsplash.com/photo-1610662361478-d2def3ffa83b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
     background-position: center center;
     background-size: cover;
+}
+/*Contact*/
+.contact{
+    width: 100%;
+    height: 623px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+#background_contact{
+    width: 56%;
+    height: 623px;
+    background: blueviolet;
+    position: absolute;
+}
+.img_contact{
+    width: 54%;
+    height: 479px;
+    background: url(https://raw.githubusercontent.com/wilkerlisboa/Contact-form/master/Img/image1.png);
+    z-index: 1;
+    margin: 21px 0px 0px 108px;
+    background-position: center;
+}
+label{
+    position: absolute;
+    margin: -198px 0px 0px 907px;
+    background: blueviolet;
+    width: 317px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    position: absolute;
+    margin-top: -174px;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: none;
+}
+#password{
+    position: absolute;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: none;
+    margin-top: -48px;
+}
+#subject{
+    margin-top: 79px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+}
+.submit{
+    margin-top: 230px;
+    padding: 10px;
+    position: absolute;
 }
