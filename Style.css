@@ -381,3 +381,6 @@ label{
     border-style: none;
     border-radius: 2px;
 }
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
