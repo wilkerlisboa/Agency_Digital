@@ -388,3 +388,6 @@ label{
     width: 6px;
     background: #F4F4F4;
 }
+::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+}
