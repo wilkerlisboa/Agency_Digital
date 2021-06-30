@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px){
+    header {
+        width: 100%;
+        height: 633px;
+        background: blueviolet;
+        margin-top: 60px;
+    }
+    ul{
+        background: blueviolet;
+        position: absolute;
+        width: 100%;
+        margin: -61px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #First_title {
+        color: white;
+        font-family: 'Roboto';
+        position: absolute;
+        margin: 298px 0px 0px 28px;
+    }
+    .Second_title {
+        position: absolute;
+        margin: 357px 0px 0px 29px;
+        width: 80.3%;
+        font-family: 'Roboto';
+        color: white;
+    }
+    .img{
+        width: 100%;
+        height: 243px;
+        position: absolute;
+        background: url(https://images.unsplash.com/photo-1613672710119-573123221c48?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+        background-position: center center;
+        margin: 17px 0px 0px 0px;
+    }
+    .button {
+        background: white;
+        width: 76px;
+        height: 29px;
+        outline: none;
+        border-style: none;
+        margin: 524px 0px 0px 29px;
+        position: absolute;
+        border-radius: 5px;
+    }
+    
+
+
+}
