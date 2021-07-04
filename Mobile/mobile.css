@@ -102,6 +102,11 @@
         align-items: center;
         justify-content: flex-start;
     }
+    .background_serveces {
+        width: 100%;
+        height: 623px;
+        background: blueviolet;
+    }
 
 
 }
