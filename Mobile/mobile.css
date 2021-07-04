@@ -121,6 +121,13 @@
         display: block;
         margin: 208px 0px 0px -425px;
     }
+    .web_developer {
+        width: 242px;
+        height: 146px;
+        position: absolute;
+        margin: 511px 0px 0px 105px;
+        font-family: 'Roboto';
+    }
 
 
 }
