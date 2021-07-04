@@ -87,9 +87,10 @@
     #text_about_agency {
         color: white;
         position: absolute;
-        margin: 415px 0px 0px 29px;
-        text-align: left;
+        margin: 415px 0px 0px 0px;
         font-family: 'Roboto';
+        text-align: left;
+        width: 80.3%;
     }
 
 
