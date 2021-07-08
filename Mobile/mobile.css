@@ -110,6 +110,12 @@
         border-radius: 0px;
         margin: -27px 0px 0px 0px;
     }
+    .texts_Our_services {
+        display: block;
+        margin: 208px 0px 0px -425px;
+        width: 100%;
+        color: black;
+    }
     .Title_Our_services {
         font-family: 'Roboto';
         color: white;
