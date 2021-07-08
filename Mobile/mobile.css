@@ -134,6 +134,13 @@
         margin: 511px 0px 0px 105px;
         font-family: 'Roboto';
     }
+    .online_marketing {
+        width: 242px;
+        height: 146px;
+        position: absolute;
+        margin: 83px 0px 0px 232px;
+        font-family: 'Roboto';
+    }
 
 
 }
