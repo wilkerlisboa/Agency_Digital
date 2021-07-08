@@ -141,6 +141,20 @@
         margin: 83px 0px 0px 232px;
         font-family: 'Roboto';
     }
+    .web_developer {
+        width: 242px;
+        height: 146px;
+        position: absolute;
+        margin: 242px 0px 0px 232px;
+        font-family: 'Roboto';
+    }
+    .web_design {
+        width: 242px;
+        height: 146px;
+        position: absolute;
+        margin: 403px 0px 0px 234px;
+        font-family: 'Roboto';
+    }
 
 
 }
