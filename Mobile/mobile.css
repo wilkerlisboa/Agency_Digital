@@ -172,6 +172,17 @@
         background-position: center center;
         z-index: 1;
     }
+    #img_smartfone_Our_services {
+        width: 62%;
+        height: 339px;
+        position: absolute;
+        margin: 1303px 0px 0px 0px;
+        background: url(https://raw.githubusercontent.com/wilkerlisboa/Our_Services/main/img/Iphone12.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
 
 
 }
