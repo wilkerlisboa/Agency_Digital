@@ -288,6 +288,14 @@
         position: absolute;
         margin: 1071px 0px 0px 0px;
     }
+    .img_contact {
+        width: 86%;
+        height: 341px;
+        background: url(https://raw.githubusercontent.com/wilkerlisboa/Contact-form/master/Img/image1.png);
+        z-index: 1;
+        margin: 752px 0px 0px 27px;
+        background-position: center;
+    }
 
 
 }
