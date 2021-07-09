@@ -303,6 +303,11 @@
         position: absolute;
         margin: 275px 0px 0px 260px;
     }
-
+    .logo {
+        color: white;
+        margin: 37px 0px 0px 133px;
+        position: absolute;
+        font-family: 'Roboto';
+    }
 
 }
