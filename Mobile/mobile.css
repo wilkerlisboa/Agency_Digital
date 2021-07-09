@@ -299,7 +299,7 @@
     .icon_instagram {
         width: 28px;
         height: 28px;
-        background: url(./icons/instagram.svg);
+        background: url(../icons/instagram.svg);
         position: absolute;
         margin: 275px 0px 0px 260px;
     }
